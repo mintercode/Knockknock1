@@ -1013,3 +1013,10 @@ body [data-aos-duration="4000"] [data-aos],
   cursor: pointer;
   transform: scale(1.1);
 }
+
+.hero__image {
+  height: 400px;
+  width: 400px;
+  float: right;
+  margin-top: 30px;
+}
