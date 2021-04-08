@@ -34,7 +34,7 @@ body {
   color: var(--color-body);
 }
 .bk {
-  background: url(../Images/deskSetup.jpg);
+  background: url(../Images/deskSetup.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -49,7 +49,7 @@ body {
   height: 50vh;
 }
 .bk--3 {
-  background: url(../Images/uxui2.svg);
+  background: url(../Images/uxui2.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
