@@ -34,7 +34,7 @@ body {
   color: var(--color-body);
 }
 .bk {
-  background: url(../Images/deskSetup@2x.jpg);
+  background: url(../Images/deskSetup.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
