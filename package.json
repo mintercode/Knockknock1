@@ -19,6 +19,7 @@
   "description": "",
   "devDependencies": {
     "bundler": "^0.8.0",
-    "parcel": "^2.0.0-beta.2"
+    "parcel": "^2.0.0-beta.2",
+    "parcel-bundler": "^1.12.5"
   }
 }
