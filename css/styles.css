@@ -34,7 +34,7 @@ body {
   color: var(--color-body);
 }
 .bk {
-  background: url(../images/deskSetup.jpg);
+  background: url(../Images/deskSetup.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -42,14 +42,14 @@ body {
 }
 
 .bk--2 {
-  background: url(../images/desksetup3.svg);
+  background: url(../Images/desksetup3.svg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   height: 50vh;
 }
 .bk--3 {
-  background: url(../images/uxui2.svg);
+  background: url(../Images/uxui2.svg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
