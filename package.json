@@ -1,25 +1,6 @@
 {
-  "name": "Profilepage",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "build": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mintercode/Knockknock1.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mintercode/Knockknock1/issues"
-  },
-  "homepage": "https://github.com/mintercode/Knockknock1#readme",
-  "description": "",
   "devDependencies": {
-    "bundler": "^0.8.0",
-    "parcel": "^2.0.0-beta.2",
-    "parcel-bundler": "^1.12.5"
+    "parcel-bundler": "^1.12.3"
   }
 }
+"build": "parcel build index.html
