@@ -8,7 +8,7 @@
   },
 
   "scripts": {
-    "build": "parcel build index.html"
+    "build": "parcel build Index.html"
     
   },
   "repository": {
