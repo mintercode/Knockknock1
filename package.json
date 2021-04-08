@@ -1,5 +1,5 @@
 {
-  "name": "Profilepage",
+  "name": "DTL",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mintercode/Knockknock1.git"
+    "url": "git+https://github.com/mintercode/Finaltest.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mintercode/Knockknock1/issues"
+    "url": "https://github.com/mintercode/Finaltest/issues"
   },
-  "homepage": "https://github.com/mintercode/Knockknock1#readme",
+  "homepage": "https://github.com/mintercode/Finaltest#readme",
   "devDependencies": {
     "parcel-bundler": "^1.12.3"
   },
