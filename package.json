@@ -6,8 +6,10 @@
   "dependencies": {
     
   },
+
   "scripts": {
-    "build": "parcel build index.html",
+    "build": "parcel build index.html"
+    
   },
   "repository": {
     "type": "git",
