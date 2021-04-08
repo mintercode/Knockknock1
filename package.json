@@ -1,28 +1,5 @@
 {
   "devDependencies": {
-    "parcel-bundler": "^1.12.3"
-  },
-  "name": "Profilepage",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "build": "CI= npm run build,
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mintercode/Knockknock1.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mintercode/Knockknock1/issues"
-  },
-  "homepage": "https://github.com/mintercode/Knockknock1#readme",
-  "dependencies": {
-    "-": "^0.0.1",
-    "g": "^2.0.1"
-  },
-  "description": ""
+    "cssnano": "^4.1.11"
+  }
 }
