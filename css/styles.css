@@ -34,7 +34,7 @@ body {
   color: var(--color-body);
 }
 .bk {
-  background: url(../Images/deskSetup.png);
+  background: url(../Images/deskSetup.webp);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -42,14 +42,14 @@ body {
 }
 
 .bk--2 {
-  background: url(../Images/desksetup3.svg);
+  background: url(../Images/deskSetup.webp);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   height: 50vh;
 }
 .bk--3 {
-  background: url(../Images/uxui2.png);
+  background: url(../Images/ux_ui2.webp);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1016,7 +1016,8 @@ body [data-aos-duration="4000"] [data-aos],
 
 .hero__image {
   height: 400px;
-  width: 400px;
+  width: 450px;
   float: right;
   margin-top: 30px;
+  clip-path: ellipse(48% 50% at 50% 50%);
 }
