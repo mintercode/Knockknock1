@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "simplifca";
+  src: url("/fonts/simplifica_typeface-webfont.woff2") format("woff2"),
+    url("/fonts/simplifica_typeface-webfont.woff") format("woff");
+}
+
 body {
   background: var(--color-primary);
 }
