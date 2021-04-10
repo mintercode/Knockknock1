@@ -1,7 +1,7 @@
 @font-face {
   font-family: "simplifica";
-  src: url("Fonts/simplifica_typeface-webfont.woff2") format("woff2"),
-    url("Fonts/simplifica_typeface-webfont.woff") format("woff");
+  src: url("Fonts/simplifica_typeface-webfont.woff2"),
+    url("Fonts/simplifica_typeface-webfont.woff");
   font-weight: normal;
   font-style: normal;
 }
