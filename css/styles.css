@@ -1,6 +1,7 @@
 @font-face {
-  font-family: "simplificasimplifica";
-  src: url("/Fonts/simplifica.woff2"), url("/Fonts/simplifica.woff");
+  font-family: "simplifica";
+  src: url("Fonts/simplifica_typeface-webfont.woff2") format("woff2"),
+    url("Fonts/simplifica_typeface-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -58,6 +59,14 @@ body {
 }
 .bk--3 {
   background: url(../Images/ux_ui2.webp);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 50vh;
+}
+
+.bk--4 {
+  background: url(../Images/pexels-aleksandar-pasaric-3342739.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1090,26 +1099,38 @@ body [data-aos-duration="4000"] [data-aos],
     display: flex;
   }
 }
+.hero__image-2 {
+  height: 500px;
+  width: 375px;
+  margin-left: -20px;
+  margin-top: 30px;
+  clip-path: polygon(0 0, 100% 1%, 100% 100%, 0% 100%);
+  border: solid var(--color-accent) 2px;
+}
+
+.hero__image-2:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
 @media screen and (min-width: 480px) {
-  .mobile {
+  .hero__image-2 {
     width: 75%;
+    display: flex;
   }
 }
 
 @media screen and (min-width: 375px) {
-  .mobile {
-    width: 50%;
+  .hero__image-2 {
+    width: 75%;
     height: auto;
+    display: flex;
   }
 }
-
 @media screen and (min-width: 320px) {
-  .mobile {
-    width: 50%;
+  .hero__image-2 {
+    width: 75%;
     height: auto;
+    display: flex;
   }
-}
-
-.index__list {
-  margin-right: -20px;
 }
