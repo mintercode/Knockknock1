@@ -1,12 +1,12 @@
 body {
-  @font-face {
-    font-family: "simplificasimplifica";
-    src: url("../Font/simplifica.woff2") format("woff2"),
-      url("../Fonts/simplifica.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-  }
   background: var(--color-primary);
+}
+@font-face {
+  font-family: "simplificasimplifica";
+  src: url("../Font/simplifica.woff2") format("woff2"),
+    url("../Fonts/simplifica.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @import "./normalize.css";
