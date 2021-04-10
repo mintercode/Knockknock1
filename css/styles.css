@@ -3,12 +3,11 @@
   src: url("/Fonts/simplifica.woff2"), url("/Fonts/simplifica.woff");
   font-weight: normal;
   font-style: normal;
+}
 
 body {
   background: var(--color-primary);
 }
-
-
 
 @import "./normalize.css";
 :root {
