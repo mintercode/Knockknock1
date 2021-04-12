@@ -30,7 +30,7 @@ img {
 }
 
 body {
-  font-family: Simplifica, Inter, Arial, Helvetica, sans-serif;
+  font-family: Roboto, Simplifica, Inter, Arial, Helvetica, sans-serif;
   font-size: 2rem;
   color: var(--color-body);
 }
@@ -1057,8 +1057,8 @@ body [data-aos-duration="4000"] [data-aos],
 .hero__image {
   height: 500px;
   width: 375px;
-  margin-left: -20px;
   margin-top: 30px;
+  margin-left: 15px;
   clip-path: polygon(
     20% 0%,
     80% 0%,
@@ -1069,6 +1069,12 @@ body [data-aos-duration="4000"] [data-aos],
     0% 80%,
     0% 20%
   );
+}
+@media screen and (min-width: 765px) {
+  .hero__image {
+    width: 75%;
+    display: flex;
+  }
 }
 
 @media screen and (min-width: 480px) {
