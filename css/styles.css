@@ -30,7 +30,7 @@ img {
 }
 
 body {
-  font-family: Roboto, Simplifica, Inter, Arial, Helvetica, sans-serif;
+  font-family: Simplifica, Inter, Arial, Helvetica, sans-serif;
   font-size: 2rem;
   color: var(--color-body);
 }
