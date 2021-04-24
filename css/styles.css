@@ -94,7 +94,9 @@ p {
   h3 {
     text-decoration: underline;
     color: #fff;
-    font-size: 2.4rem;
+    font-size: 2 rem;
+    padding: 0%;
+    margin-left: 0%;
   }
 }
 
