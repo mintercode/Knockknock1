@@ -1,14 +1,8 @@
 {
   "name": "Profilepage",
   "version": "1.0.0",
-  "description": "",
-  "dependencies": {
-    
-  },
-
   "scripts": {
     "build": "parcel build Index.html"
-    
   },
   "repository": {
     "type": "git",
@@ -20,5 +14,8 @@
   "bugs": {
     "url": "https://github.com/mintercode/Knockknock1/issues"
   },
-  "homepage": "https://github.com/mintercode/Knockknock1#readme"
+  "homepage": "https://github.com/mintercode/Knockknock1#readme",
+  "main": "index.js",
+  "devDependencies": {},
+  "description": ""
 }
